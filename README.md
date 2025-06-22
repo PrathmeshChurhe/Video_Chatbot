@@ -1,16 +1,14 @@
-# Smartbridge GenAI Chatbot Demo
+# GenAI Chatbot Demo
 
-This project demonstrates a dual-chatbot interface for Smartbridge:
+This project demonstrates a dual-chatbot interface:
 - **Dialogflow Messenger Bot** (cloud-based, embedded via widget)
 - **RAG (Retrieval-Augmented Generation) Chatbot** (local, powered by OpenAI and LangChain)
-
-Inspired by the [Smartbridge_GenAI_candidate_assignment](#) documentation.
 
 ---
 
 ## Features
 - **Dialogflow Bot**: Interact with a Dialogflow agent directly in the browser.
-- **RAG Chatbot**: Ask questions about Salesforce AI using a local Python backend that leverages transcript data and OpenAI LLMs.
+- **RAG Chatbot**: Ask questions using a local Python backend that leverages transcript data and OpenAI LLMs.
 
 ---
 
@@ -47,10 +45,10 @@ Visit [http://localhost:5000/](http://localhost:5000/) in your browser.
 ---
 
 ## File Structure
-- `smartbridge_chatbot_demo.html` — Main demo page (served by Flask)
+- `chatbot_demo.html` — Main demo page (served by Flask)
 - `rag_chatbot_api.py` — Flask backend exposing the RAG chatbot
 - `requirements.txt` — Python dependencies
-- `smartbridge_salesforce_ai_transcript.txt` — Knowledge base for RAG chatbot
+- `transcript.txt` — Knowledge base for RAG chatbot
 - `faiss_index/` — Vector index for fast retrieval (auto-generated)
 
 ---
@@ -63,7 +61,7 @@ Visit [http://localhost:5000/](http://localhost:5000/) in your browser.
 
 ## RAG Chatbot (Local)
 - Powered by LangChain, OpenAI, and FAISS vector search.
-- Answers are generated based on the transcript in `smartbridge_salesforce_ai_transcript.txt`.
+- Answers are generated based on the transcript in `transcript.txt`.
 - Requires a valid OpenAI API key.
 
 ---
@@ -76,12 +74,6 @@ Visit [http://localhost:5000/](http://localhost:5000/) in your browser.
 ---
 
 ## References
-- [Smartbridge_GenAI_candidate_assignment](#) *(replace with actual link if available)*
 - [Dialogflow Messenger Documentation](https://cloud.google.com/dialogflow/es/docs/integrations/dialogflow-messenger)
 - [LangChain Documentation](https://python.langchain.com/)
 - [OpenAI API](https://platform.openai.com/docs/api-reference/introduction)
-
----
-
-## License
-This project is for educational/demo purposes as part of the Smartbridge GenAI candidate assignment. 
