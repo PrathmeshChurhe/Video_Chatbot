@@ -1,0 +1,21 @@
+Question,Answer
+Who are the speakers in the conversation?,"The speakers are Venu Khari (Director at SmartBridge), Rajiv (Managing Director of Innovation & Analytics), and Amir (Salesforce Manager)."
+What is Einstein Copilot?,"Einstein Copilot is Salesforce's generative AI assistant that interacts with CRM data through natural language, offering insights and performing actions."
+What does Einstein Copilot do?,"It evaluates CRM data and provides meaningful insights in conversational form, helping users across sales, service, marketing, and admin roles."
+What is Einstein Copilot Studio?,"Einstein Copilot Studio is a configuration tool that includes Prompt Builder, Skills (Actions), and Model Builder to tailor Copilot to business needs."
+How is Prompt Builder used?,Prompt Builder allows you to create and customize prompts that align with your business tone and requirements.
+What are Skills in Einstein Copilot Studio?,"Skills define what actions Copilot can perform, like retrieving order status or updating records."
+What is the Einstein Trust Layer?,"It's a security layer that ensures data grounding, masks sensitive data, filters toxicity, and prevents hallucinations in LLM responses."
+What are predictive AI capabilities in Salesforce?,"They include lead scoring, opportunity scoring, next best actions, and predictive forecasting mainly in Sales Cloud."
+What are conversational AI features in Salesforce?,"These include email and chat analysis, call summaries, Einstein chatbots, and conversational mining."
+What generative AI features does Salesforce offer?,"Salesforce offers generative AI through Einstein Copilot, enabling natural language queries, customer research, and automation."
+When did Salesforce start focusing on AI?,Salesforce began its AI journey around 2014 through acquisitions and formalized predictive capabilities between 2018 and 2021.
+What is Data Cloud and how does it relate to AI?,"Data Cloud consolidates enterprise data to support AI and analytics, making AI models more effective."
+What is LLM Ops?,"LLM Ops refers to managing and deploying large language model-based applications, including use case discovery, strategy, and operational consistency."
+What is the cost of Einstein Copilot?,"Einstein 1 Sales/Service Edition costs $500/user/month. As an add-on for Enterprise/Unlimited users, it costs $75/user/month."
+Can admins use Einstein Copilot?,"Yes, admins can use it for configuring flows, formulas, and even generating or verifying code."
+How can developers benefit from Einstein Copilot?,"Developers can use Copilot to write, understand, and debug code, as well as automate CRM tasks."
+What precautions should enterprises take when using AI?,"Ensure grounding in real data, avoid sharing sensitive data, and monitor for hallucinations and toxic outputs."
+What is Hyperforce?,"Hyperforce is Salesforce's public cloud infrastructure, hosted on platforms like AWS, providing scalability and trust."
+How has generative AI accelerated industry innovation?,"Generative AI has drastically increased innovation speed across industries by enabling intelligent, automated, and data-driven processes."
+What trial option does Salesforce offer for Einstein Copilot?,Salesforce offers a 5-day developer edition of Einstein 1 to explore Copilot features before purchasing.
